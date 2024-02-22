@@ -1,0 +1,76 @@
+/* Hovervideo.module.css */
+
+.volumeoff {
+    /* Styles for the muted icon */
+    transition: color 0.3s, background-color 0.3s; /* Add smooth transition */
+  }
+  
+  .volumeon {
+    /* Styles for the unmuted icon */
+    transition: color 0.3s, font-weight 0.3s; /* Add smooth transition */
+  }
+  
+  .volumeoff:hover {
+    color: orangered;
+   
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    transform: scale(1.2); /* Blowing animation */
+  }
+  
+  .volumeon:hover {
+    color: orangered;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, font-weight 0.3s ease-in-out;
+    transform: scale(1.2); /* Blowing animation */
+  }
+
+  .playButton {
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: orangered;
+    border: 2px solid transparent; /* or border: 0; */
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  
+  .playButton:hover {
+    color: orangered;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8); /* Add box shadow on hover */
+ 
+    border: 2px solid white;
+  }
+
+
+/* Hovervideo.module.css */
+
+.title {
+  margin: 0;
+  font-size: 5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.description {
+  font-size: 1.2em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 450px;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.title::first-letter{
+  color: orangered;
+  font-size: 65px;
+}
+
+
+
+
+
+
+
+
+
